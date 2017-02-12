@@ -1,0 +1,13 @@
+Package: GMaSPU
+Type: Package
+Title: Generalized mixed model based adaptive sum of powered test
+Version: 1.0
+Date: 2017-02-11
+Author: Chong Wu, Jun Young Park, Wei Pan
+Maintainer: Chong Wu <wuxx0845@umn.edu>
+Description: It provides a easy way to apply adaptive sum of powered test (aSPU) and some pathway based association tests starting with the score vector. 
+License: GPL (>= 2)
+Imports:
+    Rcpp (>= 0.12.8),mvtnorm
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 5.0.1
